@@ -13,6 +13,7 @@ const PORT = 5000;
 //ルーティング設計
 app.use("/api/v1/tasks", taskRoute);
 
+//heroku デプロイ　エラー内容：サーバー接続エラー
 //データベースと接続
 const start = async () => {
   try {
